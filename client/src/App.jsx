@@ -4,6 +4,7 @@ import Lists from "./components/Lists.jsx"
 import AlertButton from "./AlertButton.jsx"
 import Inputfield from "./Inputfield.jsx"
 import ThreeButtons from "./ThreeButtons.jsx"
+import EventChallenge from "./EventChallenge.jsx"
 
 function App(){
 
@@ -17,6 +18,8 @@ function App(){
       <br />
       <Inputfield />
       <ThreeButtons />
+      <br />
+      <EventChallenge />
     </div>
   )
 }
