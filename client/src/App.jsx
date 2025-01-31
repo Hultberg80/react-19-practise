@@ -1,5 +1,6 @@
 import Animals from "./Animals.jsx"
 import Buttons from "./Buttons.jsx"
+import Lists from "./components/Lists.jsx"
 
 function App(){
 
@@ -7,6 +8,7 @@ function App(){
     <div>
       <Animals />
       <Buttons />
+      <Lists />
     </div>
   )
 }
