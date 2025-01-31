@@ -1,7 +1,8 @@
 import Animals from "./Animals.jsx"
 import Buttons from "./Buttons.jsx"
 import Lists from "./components/Lists.jsx"
-import AlertButton from "./ClickEvent.jsx"
+import AlertButton from "./AlertButton.jsx"
+import Inputfield from "./Inputfield.jsx"
 
 function App(){
 
@@ -11,6 +12,9 @@ function App(){
       <Buttons />
       <Lists />
       <AlertButton />
+      <br />
+      <br />
+      <Inputfield />
     </div>
   )
 }
